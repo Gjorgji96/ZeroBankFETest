@@ -43,7 +43,7 @@ public class TransferFundsPage extends BasePage {
     @FindBy(css="#transfer_funds_content > div > div > h2")
     private WebElement transferFundHeader;
 
-    @FindBy(xpath = "/html/body/div[1]/div[2]/div/div[2]/div/a")
+    @FindBy(linkText = "View transfers or make another transfer")
     private WebElement viewAnotherTransfersLink;
 
     public void clickAccountDropdown(){

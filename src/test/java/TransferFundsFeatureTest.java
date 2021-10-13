@@ -38,7 +38,7 @@ public class TransferFundsFeatureTest {
     }
 
     @Test
-    public void successfullTransferMoney(){
+    public void successfulTransferMoney(){
         transferFundsPage = new TransferFundsPage(driver);
         transferFundsPage.clickAccountDropdown();
         transferFundsPage.clickSecondOptionAmount();
